@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Brand Studio - Auth Form</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="auth-row">
+			<h2 id="auth-title">Войдите в личный кабинет</h2>
+		</div>
+		<div class="auth-row">
+			<input class="auth-button" type="button" id="auth-button" value="Войти">
+		</div>
+		<div class="popup" id="popup">
+			<form class="auth-form" id="auth-form">
+				<div class="auth-row">
+					<label class="auth-form__label">Логин:</label>
+					<input class="auth-form__text" type="text" name="username" required>
+				</div>
+				<div class="auth-row">
+					<label class="auth-form__label">Пароль:</label>
+					<input class="auth-form__text" type="password" name="password" required>
+				</div>
+				<div class="auth-row">
+					<input class="auth-button" type="submit" value="Войти">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
